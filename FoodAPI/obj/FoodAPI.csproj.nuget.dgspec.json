@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaotu\\source\\repos\\FoodAPI\\FoodAPI.csproj": {}
+    "C:\\Users\\Thang\\Desktop\\Dev4Fun-SEM3\\FoodAPI\\FoodAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaotu\\source\\repos\\FoodAPI\\FoodAPI.csproj": {
+    "C:\\Users\\Thang\\Desktop\\Dev4Fun-SEM3\\FoodAPI\\FoodAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaotu\\source\\repos\\FoodAPI\\FoodAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Thang\\Desktop\\Dev4Fun-SEM3\\FoodAPI\\FoodAPI.csproj",
         "projectName": "FoodAPI",
-        "projectPath": "C:\\Users\\kaotu\\source\\repos\\FoodAPI\\FoodAPI.csproj",
-        "packagesPath": "C:\\Users\\kaotu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaotu\\source\\repos\\FoodAPI\\obj\\",
+        "projectPath": "C:\\Users\\Thang\\Desktop\\Dev4Fun-SEM3\\FoodAPI\\FoodAPI.csproj",
+        "packagesPath": "C:\\Users\\Thang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thang\\Desktop\\Dev4Fun-SEM3\\FoodAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kaotu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Thang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }
