@@ -260,3 +260,4 @@ C:\Users\kaotu\source\repos\FoodAPI\obj\Debug\net6.0\FoodAPI.dll
 C:\Users\kaotu\source\repos\FoodAPI\obj\Debug\net6.0\ref\FoodAPI.dll
 C:\Users\kaotu\source\repos\FoodAPI\obj\Debug\net6.0\FoodAPI.pdb
 C:\Users\kaotu\source\repos\FoodAPI\obj\Debug\net6.0\FoodAPI.genruntimeconfig.cache
+C:\Users\kaotu\source\repos\FoodAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
