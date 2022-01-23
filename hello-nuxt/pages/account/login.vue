@@ -134,56 +134,54 @@ export default {
      onLogin() {
       alert('Đăng nhập thành công')
 
-      // try {
-      //   console.log(this.$auth.loggedIn);
-      //   const response = await this.$auth.loginWith('local', {data: this.user})
-      //   console.log(response)
-      //   switch (response.data) {
-      //     case 1:
-      //       alert('Đăng nhập thành công')
-      //       this.messenger = 'OK!';
-      //       this.typeMessenger = 'success';
-      //         await this.$router.push('/account');
-      //       break;
-      //     case 2:
-      //       this.messenger = 'Bạn đang đăng nhập trên thiết bị khác';
-      //       this.typeMessenger = 'danger';
-      //       break;
-      //     case 3:
-      //       this.messenger = 'Sai tài khoản hoặc mật khẩu';
-      //       this.typeMessenger = 'danger';
-      //       break;
-      //     default:
-      //       this.messenger = 'Hệ thống lỗi!!!';
-      //       this.typeMessenger = 'danger';
-      //       break;
-      //   }
-      // } catch (err) {
-      //   console.log(err)
-      // }
+      try {
+         console.log(this.$auth.loggedIn);
+         const response = await this.$auth.loginWith('local', {data: this.user})
+         console.log(response)
+         switch (response.data) {
+           case 1:
+             alert('Đăng nhập thành công')
+             this.messenger = 'OK!';
+             this.typeMessenger = 'success';
+               await this.$router.push('/account');
+             break;
+           case 2:
+             this.messenger = 'Bạn đang đăng nhập trên thiết bị khác';
+             this.typeMessenger = 'danger';
+             break;
+           case 3:
+             this.messenger = 'Sai tài khoản hoặc mật khẩu';
+             this.typeMessenger = 'danger';
+             break;
+           default:
+             this.messenger = 'Hệ thống lỗi!!!';
+             this.typeMessenger = 'danger';
+             break;
+         }
+       } catch (err) {
+         console.log(err)
+       }
     },
     onRegister() {
-      alert('Đăng kí thành công')
-
-      // const uri = '/account/register'
-      // this.$axios.post(uri, this.user).then((response) => {
-      //   switch (response.data) {
-      //     case 1:
-      //       this.messenger = 'Account created successfully<br/> <strong>Please check your email to receive the password</strong>'
-      //       this.typeMessenger = 'success'
-      //       alert('Đăng kí thành công')
-      //       // this.$router.push('/account/login')
-      //       break;
-      //     case 2:
-      //       this.messenger = 'Invalid email try another email'
-      //       this.typeMessenger = 'danger'
-      //       break;
-      //     default:
-      //       this.messenger = 'Hệ thống lỗi!!!'
-      //       this.typeMessenger = 'danger'
-      //       break;
-      //   }
-      // })
+       const uri = '/account/register'
+       this.$axios.post(uri, this.user).then((response) => {
+         switch (response.data) {
+           case 1:
+             this.messenger = 'Account created successfully<br/> <strong>Please check your email to receive the password</strong>'
+             this.typeMessenger = 'success'
+             alert('Đăng kí thành công')
+             // this.$router.push('/account/login')
+             break;
+           case 2:
+             this.messenger = 'Invalid email try another email'
+             this.typeMessenger = 'danger'
+             break;
+           default:
+             this.messenger = 'Hệ thống lỗi!!!'
+             this.typeMessenger = 'danger'
+             break;
+         }
+       })
     }
   }
 }
